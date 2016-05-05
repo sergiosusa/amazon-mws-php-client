@@ -1,0 +1,21 @@
+{
+    "name": "sergiosusa/amazon-mws-php-client",
+    "type": "library",
+    "description": "Simple POO to interact with Amazon Marketplace Web Service",
+    "homepage": "http://sergiosusa.com",
+    "license": "MIT",
+    "version": "0.1"
+    "authors": [
+        {
+            "name": "Sergio Susa",
+            "email": "sergio.susa@ofertix.com"
+        }
+    ],
+    "require": {
+	"php" : ">=5.3.0"	
+    },
+    "autoload" : {
+       "classmap" : ["src/"]
+    },
+    "include-path": ["src/"]
+}
